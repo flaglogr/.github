@@ -19,6 +19,6 @@ The APIs are designed to be as easy to use as possible, allowing porting to othe
 | Language | Repo | Notes |
 |----------|------|-------|
 | `go` | [flaglogr-go](https://github.com/flaglogr/go) | Works with any webserver framework (and other applications, too) |
-| `js` | [flaglogr-go](https://github.com/flaglogr/js) | Works both on server-side and client side and supports the frameworks, too |
+| `js` | [flaglogr-js](https://github.com/flaglogr/js) | Works both on server-side and client side and supports the frameworks, too |
 
 More SDKs are coming when I personally need them or people request them (and I have the time to implement them).

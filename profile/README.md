@@ -1,7 +1,8 @@
 ## flaglogr
-Feature Flags, A/B Testing, (error) logging service and system monitoring, focusing on simplicity, ease of use, being lightweight and easy to write and maintain, since **NO AI** is used in the making of this tool.
+Primarily a tool for A/B testing and associated data logging, it will (eventually) also offer Feature Flags, (error) logging and system monitoring,
+focusing on simplicity, ease of use, being lightweight and easy to write and maintain, since **NO AI** is used in the making of this tool.
 
-It is an alternative to tools like Sentry, GrowthBook and LaunchDarkly, with much more limited feature set compared to them
+It is an alternative to tools like Sentry, GrowthBook and LaunchDarkly, with much more limited feature set compared to them.
 
 This is why the backend is written in Go using the `gin` framework to enable high throughput at a low memory footprint.
 flaglogr uses `gorm` to store its data and thus supports a variety of backends.
